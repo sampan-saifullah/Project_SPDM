@@ -76,9 +76,9 @@ export default {
     address: "",
     itemsArea: [
       "Baridhara",
+      "Dhanmondi",
       "Ghulsan 1",
       "Ghulsan 2",
-      "Dhanmondi",
       "Motijheel",
       "Kawran Bazar",
       "Paltan",

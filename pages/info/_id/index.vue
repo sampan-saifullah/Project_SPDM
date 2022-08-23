@@ -2,7 +2,7 @@
   <div>
     <v-card v-if="!loading" class="mx-auto" max-width="344">
       <v-card-text>
-        <p class="text-h4 text--primary">{{ data.type }}</p>
+        <p class="text-h4 text-center text--primary">{{ data.type }}</p>
         <p>{{ data.area }}</p>
         <div class="text--primary">{{ data.description }}</div>
       </v-card-text>
@@ -11,10 +11,10 @@
       </v-card-actions>
       <div class="pa-4">
         <div>Address - {{ data.address }}</div>
-        <div>Address - {{ data.phone }}</div>
+        <div>Phone - {{ data.phone }}</div>
       </div>
     </v-card>
-    <v-card v-else> loading </v-card>
+    <v-card v-else class="text-center" > loading.... </v-card>
   </div>
 </template>
 <script>
